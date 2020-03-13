@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/Features-Boxed.css">
     <link rel="stylesheet" href="assets/css/Features-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -45,15 +46,15 @@
                         <div>
                             <h3>Description<em style="font-size: 15px;"><br>Unity / C#&nbsp; &nbsp;- Méthodes Agiles<br><br></em></h3>
                         </div>
-                        <p class="text-justify">C'est un jeu 3D réalisé Lors de la Code Game Jam 2020 qui est une compétition de programmation de jeu en 30h par groupe. Nous étions 6 sur ce projet. Le thème de cette année était "Cute &amp; Creepy"<br></p>
+                        <p class="text-justify">C'est un jeu 3D réalisé Lors de la Code Game Jam 2020 qui est une compétition de programmation de jeu en 30h par groupe. Nous étions six personnes sur ce projet. Le thème de cette année était "Cute &amp; Creepy"<br></p>
                         <p class="text-justify">Nous avons utilisé Unity pour réaliser ce jeu. Avec des connaissances de la participation à l'édition précédente que ce soit dans l'utilisation de Unity ou de la programmation en C#. Une organisation type agiles mise en place nous
-                            a permis de nous concentrer sur des taches précises et d'importance supérieure, cette agilité a amélioré notre efficacité et productivité pour cette édition.<br></p>
-                        <p>Vidéo de présentation décalée:<br></p><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/Mfzk2WOFhf4" style="width: 100%;height: 300px;"></iframe>
-                        <p>Avec&nbsp;<a href="https://www.torisu.fr" target="_blank">Tristan Tribes</a>&nbsp;et moi-même<br></p>
-                    </div>
+                            a permis de nous concentrer sur des taches précises et d'importance supérieure, cette agilité a amélioré notre efficacité et productivité pour cette édition.<br></p><button class="btn btn-primary" data-aos="fade-down" data-aos-once="true"
+                            data-toggle="modal" data-target="#modal1" type="button">Regarder la vidéo de présentation</button></div>
                     <div class="col-12 col-md-3 offset-md-1 meta">
-                        <div class="tags"><span class="meta-heading">Tags</span><a href="https://unity.com/fr">Unity</a><a href="project-1-charlie-sanity-play.html">Projet jouable</a><span class="meta-heading">Date</span><span>22-01-2020</span></div>
-                    </div>
+                        <div class="tags"><span class="meta-heading">Tags</span><a href="https://unity.com/fr">Unity</a><a id="projetlinkCharlie" href="project-1-charlie-sanity-play.html">Projet jouable</a><span class="meta-heading">Date</span><span>22-01-2020</span>
+                            <span
+                                class="meta-heading">Prix</span>
+                        </div><img src="assets/img/projet/prix.jpg" style="width: 30%;"></div>
                 </div>
                 <div class="more-projects">
                     <h3 class="text-center">Plus de Projets</h3>
@@ -72,6 +73,21 @@
                         </div>
                     </div>
                 </div>
+                <div class="modal fade" role="dialog" tabindex="-1" id="modal1">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Présentation</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                            <div class="modal-body">
+                                <p>Avec&nbsp;<a href="https://www.torisu.fr" target="_blank">Tristan Tribes</a>&nbsp;et moi-même<br></p>
+                                <div id="map_container" style="position: relative;padding-bottom: 56.25%;">
+                                    <div id="map" style="position: absolute;width: 100%;height: 100%;"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/Mfzk2WOFhf4" style="width: 100%;height: 100%;"></iframe></div>
+                                </div>
+                            </div>
+                            <div class="modal-footer"><button class="btn btn-primary" type="button" data-dismiss="modal">Fermer</button></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -85,12 +101,14 @@
                     <li class="list-inline-item"><a href="projects-grid-cards.html"><br>Projets<br></a></li>
                 </ul>
             </div>
-            <p class="copyright">David Binaud © 2020</p>
+            <p class="copyright">David Binaud © 2020 réalisé avec Bootsrap Studio</p>
         </footer>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/smart-forms.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>

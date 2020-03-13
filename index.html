@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/Features-Boxed.css">
     <link rel="stylesheet" href="assets/css/Features-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -36,10 +37,9 @@
     <main class="page lanidng-page">
         <section class="portfolio-block block-intro">
             <div class="container">
-                <div class="avatar" style="background-image: url(&quot;assets/img/avatars/me.JPG&quot;);"></div>
+                <div data-aos="fade" data-aos-once="true" class="avatar" style="background-image: url(&quot;assets/img/avatars/me.JPG&quot;);"></div>
                 <div class="about-me">
-                    <p class="text-justify">Bonjour! Je suis&nbsp;<strong>David Binaud&nbsp;</strong>et j'ai 24 ans. Je suis étudiant en deuxième année d'Informatique et gestion à l'IUT de Montpellier-Sète. J'apprécie tout particulièrement le Back-End.</p><a class="btn btn-outline-primary"
-                        role="button" href="contact.html">Contactez-moi</a></div>
+                    <p class="text-justify">Bonjour! Je suis&nbsp;<strong>David Binaud&nbsp;</strong>et j'ai 24 ans. Je suis étudiant en deuxième année d'Informatique et gestion à l'IUT de Montpellier-Sète.</p><a class="btn btn-outline-primary" role="button" href="contact.html">Contactez-moi</a></div>
             </div>
         </section>
         <section class="portfolio-block photography">
@@ -51,21 +51,16 @@
                 </div>
             </div>
         </section>
-        <section class="portfolio-block call-to-action border-bottom">
-            <div class="container">
-                <div class="d-flex justify-content-center align-items-center content">
-                    <h3>Vous aimez ce que vous voyez?</h3><a class="btn btn-outline-primary btn-lg" role="button" href="contact.html">Contactez-moi</a></div>
-            </div>
-        </section>
+        <section class="portfolio-block call-to-action border-bottom"></section>
         <section class="portfolio-block skills">
             <div class="container">
                 <div class="heading">
                     <h2>Competences particulieres</h2>
                 </div>
-                <div class="row">
+                <div class="row" data-aos="fade-down">
                     <div class="col-md-4 d-xl-flex justify-content-xl-center align-items-xl-center">
                         <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="fas fa-server icon"></i></div>
+                            <div class="card-header bg-transparent border-0"><i class="fas fa-server icon" style="background-color: #9f0808;"></i></div>
                             <div class="card-body">
                                 <h3 class="card-title">Programmation Back-End</h3>
                             </div>
@@ -73,7 +68,7 @@
                     </div>
                     <div class="col-md-4 d-xl-flex justify-content-xl-center align-items-xl-center">
                         <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="material-icons icon">web</i></div>
+                            <div class="card-header bg-transparent border-0"><i class="material-icons icon" style="background-color: #9f0808;">web</i></div>
                             <div class="card-body">
                                 <h3 class="card-title">Web Design</h3>
                             </div>
@@ -81,7 +76,7 @@
                     </div>
                     <div class="col-md-4 d-xl-flex justify-content-xl-center align-items-xl-center">
                         <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="fas fa-pencil-ruler icon"></i></div>
+                            <div class="card-header bg-transparent border-0"><i class="fas fa-pencil-ruler icon" style="background-color: #9f0808;"></i></div>
                             <div class="card-body">
                                 <h3 class="card-title">Conception</h3>
                             </div>
@@ -101,12 +96,14 @@
                     <li class="list-inline-item"><a href="projects-grid-cards.html"><br>Projets<br></a></li>
                 </ul>
             </div>
-            <p class="copyright">David Binaud © 2020</p>
+            <p class="copyright">David Binaud © 2020 réalisé avec Bootsrap Studio</p>
         </footer>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/smart-forms.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>
