@@ -21,8 +21,12 @@
     <link rel="stylesheet" href="assets/css/Features-Boxed.css">
     <link rel="stylesheet" href="assets/css/Features-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
+    <link rel="stylesheet" href="assets/css/Projects-Clean.css">
+    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
@@ -45,7 +49,7 @@
             <div class="container">
                 <div data-aos="fade" data-aos-once="true" class="avatar" style="background-image: url(&quot;assets/img/avatars/me.JPG&quot;);"></div>
                 <div class="about-me">
-                    <p class="text-justify">Bonjour! Je suis&nbsp;<strong>David Binaud&nbsp;</strong>et j'ai 25 ans. Je suis étudiant en deuxième année d'Informatique et gestion à l'IUT de Montpellier-Sète.</p><a class="btn btn-outline-primary" role="button" href="contact.html">Contactez-moi</a></div>
+                    <p class="text-justify">Bonjour! Je suis&nbsp;<strong>David Binaud&nbsp;</strong>et j'ai 25 ans. Je suis en formation d'ingénieur Informatique à Polytech Montpellier.</p><a class="btn btn-outline-primary" role="button" href="contact.html">Contactez-moi</a></div>
             </div>
         </section>
         <section class="portfolio-block cv">
@@ -62,8 +66,20 @@
                             </div>
                             <div class="col-md-6"><span class="period">04/2020 - 07/2020</span></div>
                         </div>
-                        <p class="text-muted">Analyse Technique<br>Développement des applications<br>Tests et écriture des corrections nécessaires<br>Maintenance corrective et évolutive des applications<br><br>- PHP, HTML, CSS, Ajax&nbsp;<br>- Javascript (AngularJS, jQuery)&nbsp;<br>-
-                            svn, git&nbsp;<br>- SQL (MYSQL)<br></p>
+                        <p class="text-muted">HTML/CSS, PHP, Javascript (AJAX), SQL, Git&nbsp;<br></p>
+                        <ul>
+                            <li>Réalisation d'un blog Wordpress<br></li>
+                            <li>Aide à la refonte du site corporate<br></li>
+                            <li>Modernisation et refactoring du système de tâches de l'infrastructure<br>
+                                <ul>
+                                    <li>Analyse technique du code existant<br></li>
+                                    <li>Développement des applications<br></li>
+                                    <li>Tests et écriture des corrections nécessaires<br></li>
+                                    <li>Maintenance corrective et évolutive des applications<br></li>
+                                </ul>
+                            </li>
+                            <li>Traduction d'un système du React au PHP utilisant le moteur de recherche Elasticsearch sur une base de données NoSQL<br></li>
+                        </ul>
                     </div>
                     <div class="item">
                         <div class="row">
@@ -83,7 +99,13 @@
                             </div>
                             <div class="col-md-6"><span class="period">07/2018 - 09/2018</span></div>
                         </div>
-                        <p class="text-muted">Saisonnier pour deux mois dans les Alpes.<br>Mise en rayon<br>Etiquettage<br>Livraisons chez les clients<br>Encaissements</p>
+                        <ul>
+                            <li>Saisonnier pour deux mois dans les Alpes.<br></li>
+                            <li>Mise en rayon<br></li>
+                            <li>Etiquettage<br></li>
+                            <li>Livraisons chez les clients<br></li>
+                            <li>Encaissements<br></li>
+                        </ul>
                     </div>
                     <div class="item">
                         <div class="row">
@@ -93,7 +115,13 @@
                             </div>
                             <div class="col-md-6"><span class="period">08/2015 - 09/2017</span></div>
                         </div>
-                        <p class="text-muted">Management d'équipe<br>Gestion des stocks<br>Mise en rayon<br>Mise en place de PLV<br>Utilisation de Transpalette Manuel, Electrique et Gerbeur</p>
+                        <ul>
+                            <li>Management d'équipe<br></li>
+                            <li>Gestion des stocks<br></li>
+                            <li>Mise en rayon<br></li>
+                            <li>Mise en place de PLV<br></li>
+                            <li>Utilisation de Transpalette Manuel, Electrique et Gerbeur<br></li>
+                        </ul>
                     </div>
                 </div>
                 <div class="education group">
@@ -103,23 +131,51 @@
                     <div class="item">
                         <div class="row">
                             <div class="col-md-6">
+                                <h3>Diplôme d'ingénieur, Informatique et Gestion - En cours</h3>
+                                <h4 class="organization">Polytech Montpellier</h4>
+                            </div>
+                            <div class="col-6"><span class="period">09/2020 - 06/2023</span></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
                                 <h3>DUT Informatique et gestion</h3>
-                                <h4 class="organization">IUT de Montpellier-Sète</h4>
+                                <div class="d-flex flex-column align-items-start">
+                                    <h4 class="organization">IUT de Montpellier-Sète</h4>
+                                    <h4 class="organization">Admis avec 13.93 de moyenne<br></h4>
+                                </div>
                             </div>
                             <div class="col-6"><span class="period">09/2018 - 06/2020</span></div>
                         </div>
-                        <p class="text-muted">Programmation objet (Java) / Programmation récursive<br>Développement de site statique HTML5-CSS3 / dynamique (PHP)<br>Modélisation de base de donnée relationnelle en SQL avec MySQL et Oracle<br>Programmation PL/SQL<br>Gestion
-                            de Projet<br>Conception et Réalisation d'application<br>Comptabilité<br><br>25 ème / 150 sur la première année<br>15 ème / 115 au troisième semestre</p>
+                        <ul>
+                            <li>Programmation objet (Java) / Programmation récursive<br></li>
+                            <li>Développement de site statique HTML5-CSS3 / dynamique (PHP)<br></li>
+                            <li>Modélisation de base de donnée relationnelle en SQL avec MySQL et Oracle<br></li>
+                            <li>Programmation PL/SQL<br></li>
+                            <li>Gestion de Projet<br></li>
+                            <li>Conception et Réalisation d'application<br></li>
+                            <li>Comptabilité<br></li>
+                        </ul>
                     </div>
                     <div class="item">
                         <div class="row">
                             <div class="col-md-6">
                                 <h3>BAC Sciences et Technologies du Management et de la Gestion (STMG)</h3>
-                                <h4 class="organization">Lycée Georges Pompidou&nbsp; -&nbsp; Castelnau-le-lez</h4>
+                                <div class="d-flex flex-column align-items-start">
+                                    <h4 class="organization">Lycée Georges Pompidou&nbsp; -&nbsp; Castelnau-le-lez</h4>
+                                    <h4 class="organization">Mention très bien avec 17 de moyenne<br></h4>
+                                </div>
                             </div>
                             <div class="col-md-6"><span class="period">09/2017 - 06/2018</span></div>
                         </div>
-                        <p class="text-muted">Management<br>Marketing<br>Comptabilitié<br>Economie<br>Droit<br><br>Mention très bien avec 17 de moyenne</p>
+                        <ul>
+                            <li>Management<br></li>
+                            <li>Marketing<br></li>
+                            <li>Comptabilitié<br></li>
+                            <li>Economie<br></li>
+                            <li>Droit<br></li>
+                        </ul>
                     </div>
                 </div>
                 <div class="group">
@@ -252,7 +308,8 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>
