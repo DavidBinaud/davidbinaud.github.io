@@ -1,1 +1,7 @@
 Add cereal Killer project
+
+fix unity/webgl: https://forum.unity.com/threads/unable-to-parse-build-html5-framework-js-gz-need-help.1083602/
+
+Migrate project to dynamic => php symfony or node
+
+Put project on heroku
